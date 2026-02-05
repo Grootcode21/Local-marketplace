@@ -1,0 +1,13 @@
+{% extends 'shop/base.html' %}
+{% block content %}
+<div class="card">
+    <img src="{{ product.image.url }}" style="max-height:400px; object-fit:cover;">
+    <div class="card-body">
+        <h3>{{ product.title }}</h3>
+        <p>{{ product.description }}</p>
+        <h4>KES {{ product.price }}</h4>
+        <p>Seller: {{ product.seller.username }}</p>
+        <a href="mailto:{{ product.seller.email }}" class="btn btn-primary">Contact Seller</a>
+    </div>
+</div>
+{% endblock %}
