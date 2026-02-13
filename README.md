@@ -1,11 +1,11 @@
-This shop allows:
+This online shop allows:
 
-User login
+~ User login
 
-Upload product with image
+~ Upload product with image
 
-Browse products
+~ Browse products
 
-View details
+~ View details
 
-Contact seller via email
+~ Contact seller via email
